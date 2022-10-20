@@ -1,0 +1,55 @@
+[
+  {
+    "_id": "3a5b871d-c608-4cc6-a023-2b8576915d59",
+    "name": "(Global Env)",
+    "default": false,
+    "global": true,
+    "sortNum": -1,
+    "created": "2022-09-27T17:11:36.327Z",
+    "modified": "2022-10-10T12:40:57.810Z",
+    "data": [
+      {
+        "name": "linkFttx",
+        "value": "localhost:8585/v1/"
+      },
+      {
+        "name": "tokenDev",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMjAsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6IkFseXNzb24ubWFzY2FyZW5oYXNAZ3J1cG9icmlzYW5ldC5jb20uYnIiLCJlbXBsb3llZV9pZCI6MzU3MywiaWQiOjI4ODQsImV4dGVybmFsX2NvZGUiOiIxMWRlYzIwMi0wZTIzLTQ0NDAtODZmZC00YzBmMTFkMjUzMGMiLCJ1c2VybmFtZSI6IjA3NC4wOTYuOTIzLTQwIiwibmFtZSI6IkFseXNzb24iLCJvdHBfc2V0X3VwIjpmYWxzZSwicGFndWVicmlzYSI6eyJkb21haW5faWQiOjF9LCJwcmVmZXJlbmNlcyI6eyJmaXJzdF9sb2dpbl9yYXVtaWwiOjAsInRpcG9fbWFwYSI6Imh5YnJpZCJ9LCJyZXZhbiI6eyJieXBhc3MiOmZhbHNlfSwic2VjdG9ycyI6W3siaWQiOjgsIm5hbWUiOiJTaXN0ZW1hIiwic3VwZXJ2aXNvciI6ZmFsc2V9XSwic2VjdG9yc19pZCI6WzhdLCJwaG9uZSI6ODg5OTc0NDgxMzMsInNhbGVfY2hhbm5lbF9pZCI6MTAsImp3dF90b2tlbiI6IiIsInNlc3Npb25faWQiOjE5MTEzNSwic3RvcmFnZSI6IjdhYzQ3Nzg0LWU0OWQtNDFmZC05MTMxLTk3M2UxYzJjOGNiYSIsImV4cCI6MTY2NzM5MjA3OSwiaXNzIjoiQnJpc2FuZXQiLCJuYmYiOjE2NjQ4MDAwNzl9.U1vlgu_wgzP02lL551sjq6La0RGqn3r6ibLN0JfMdjw"
+      },
+      {
+        "name": "tokenHomo",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTI3LCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJsYXphcm9AZW1haWwuY29tIiwiZW1wbG95ZWVfaWQiOjkzNjUsImlkIjo4ODIzLCJleHRlcm5hbF9jb2RlIjoiNDc5ZTAyMjItMGU4YS00MzEwLTkwY2MtYjZiNjVkZGIwYjJkIiwidXNlcm5hbWUiOiIwNzAuNjM4LjIzMy0xMCIsIm5hbWUiOiJKb2FvIExhemFybyIsIm90cF9lbmFibGVkIjp0cnVlLCJvdHBfc2V0X3VwIjp0cnVlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5OTY2NjU1NSwic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6MjQxNDY3LCJzdG9yYWdlIjoiYjVlYTQyMWQtZDM4YS00YWEwLTljNjItZTNkNTg3ZjJkOTA4IiwiZXhwIjoxNjY2MjAwOTU0LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2MzYwODk1NH0.AuwWxgdJ0bb8KyaLeU-mWoPgYFoEURfDy4NURd_l6iM"
+      },
+      {
+        "name": "linkChamados",
+        "value": "localhost:4545/v1/"
+      }
+    ]
+  },
+  {
+    "_id": "3160c039-757e-4637-9f74-6b1d1ff5a49f",
+    "name": "fttx",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-10-20T17:28:14.043Z",
+    "modified": "2022-10-20T17:29:27.690Z",
+    "data": [
+      {
+        "name": "linkFttx",
+        "value": "localhost:8585/v1/"
+      },
+      {
+        "name": "tokenDEV",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMjAsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6IkFseXNzb24ubWFzY2FyZW5oYXNAZ3J1cG9icmlzYW5ldC5jb20uYnIiLCJlbXBsb3llZV9pZCI6MzU3MywiaWQiOjI4ODQsImV4dGVybmFsX2NvZGUiOiIxMWRlYzIwMi0wZTIzLTQ0NDAtODZmZC00YzBmMTFkMjUzMGMiLCJ1c2VybmFtZSI6IjA3NC4wOTYuOTIzLTQwIiwibmFtZSI6IkFseXNzb24iLCJvdHBfc2V0X3VwIjpmYWxzZSwicGFndWVicmlzYSI6eyJkb21haW5faWQiOjF9LCJwcmVmZXJlbmNlcyI6eyJmaXJzdF9sb2dpbl9yYXVtaWwiOjAsInRpcG9fbWFwYSI6Imh5YnJpZCJ9LCJyZXZhbiI6eyJieXBhc3MiOmZhbHNlfSwic2VjdG9ycyI6W3siaWQiOjgsIm5hbWUiOiJTaXN0ZW1hIiwic3VwZXJ2aXNvciI6ZmFsc2V9XSwic2VjdG9yc19pZCI6WzhdLCJwaG9uZSI6ODg5OTc0NDgxMzMsInNhbGVfY2hhbm5lbF9pZCI6MTAsImp3dF90b2tlbiI6IiIsInNlc3Npb25faWQiOjE5MTEzNSwic3RvcmFnZSI6IjdhYzQ3Nzg0LWU0OWQtNDFmZC05MTMxLTk3M2UxYzJjOGNiYSIsImV4cCI6MTY2NzM5MjA3OSwiaXNzIjoiQnJpc2FuZXQiLCJuYmYiOjE2NjQ4MDAwNzl9.U1vlgu_wgzP02lL551sjq6La0RGqn3r6ibLN0JfMdjw"
+      },
+      {
+        "name": "tokenHOMO",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTI3LCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJsYXphcm9AZW1haWwuY29tIiwiZW1wbG95ZWVfaWQiOjkzNjUsImlkIjo4ODIzLCJleHRlcm5hbF9jb2RlIjoiNDc5ZTAyMjItMGU4YS00MzEwLTkwY2MtYjZiNjVkZGIwYjJkIiwidXNlcm5hbWUiOiIwNzAuNjM4LjIzMy0xMCIsIm5hbWUiOiJKb2FvIExhemFybyIsIm90cF9lbmFibGVkIjp0cnVlLCJvdHBfc2V0X3VwIjp0cnVlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5OTY2NjU1NSwic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6MjQxNDY3LCJzdG9yYWdlIjoiYjVlYTQyMWQtZDM4YS00YWEwLTljNjItZTNkNTg3ZjJkOTA4IiwiZXhwIjoxNjY2MjAwOTU0LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2MzYwODk1NH0.AuwWxgdJ0bb8KyaLeU-mWoPgYFoEURfDy4NURd_l6iM"
+      },
+      {
+        "name": "linkAtendimento",
+        "value": "localhost:4545/v1/"
+      }
+    ]
+  }
+]

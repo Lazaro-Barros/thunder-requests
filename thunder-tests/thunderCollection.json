@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "colName": "fttx",
+    "created": "2022-09-27T17:10:46.943Z",
+    "sortNum": 10000,
+    "folders": [],
+    "settings": {
+      "headers": [],
+      "auth": {
+        "type": "bearer",
+        "bearer": "{{tokenDev}}"
+      },
+      "tests": [],
+      "options": {
+        "baseUrl": "{{linkFttx}}"
+      }
+    }
+  }
+]

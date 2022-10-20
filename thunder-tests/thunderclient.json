@@ -1,0 +1,174 @@
+[
+  {
+    "_id": "c6c26f2e-d592-4412-b6aa-96d814fb7a59",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "",
+    "name": "/management/condominiums/events",
+    "url": "management/condominiums/events?order=data_criacao&desc=true",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-09-27T17:11:10.283Z",
+    "modified": "2022-10-03T12:34:21.899Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "order",
+        "value": "data_criacao",
+        "isPath": false
+      },
+      {
+        "name": "desc",
+        "value": "true",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "03764499-5820-4fed-bf03-947d76a056d8",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "",
+    "name": "management/enclosure/68065",
+    "url": "management/enclosure/68065",
+    "method": "PUT",
+    "sortNum": 20000,
+    "created": "2022-10-05T17:44:04.367Z",
+    "modified": "2022-10-05T17:49:15.214Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n\t\"id\": 68065,\n  \"name\": \"BB11.4.2\",\n  \"created_at\": \"2020-05-04T14:56:38.246252-03:00\",\n  \"city_name\": \"Juazeiro do Norte\",\n  \"city_id\": 120,\n  \"active\": true,\n  \"situation_id\": 2,\n  \"situacao_fusao\": \"Ativa\",\n  \"require_notification\": false,\n  \"negotiated\": false,\n  \"model_id\": 6,\n  \"model_name\": \"1:8\",\n  \"latitude\": -3.456248,\n  \"longitude\": -38.958725,\n  \"derivation\": false,\n  \"distribution\": false,\n  \"termination\": true,\n  \"amendment\": false,\n  \"enclosure_reference\": \"FIBERHOME\",\n  \"enclosure_complement\": \"Poste\",\n  \"biggest_signal\": 20,\n  \"lowest_signal\": 20,\n  \"locality_id\": 535689,\n  \"locality_name\": \"3x\",\n  \"andar_id\": 104,\n  \"andar_numero\": 6,\n\t\"instalacao_futura\": false,\n\t\"address\": {\n    \"id\": 73083,\n    \"street\": \"RUA MARIA ACÁCIO DE MATOS\",\n    \"city_id\": 120,\n    \"city_name\": \"Juazeiro do Norte\",\n    \"number\": \"0\",\n    \"neighborhood\": \"Centro\",\n    \"zip_code\": \"62680000\",\n    \"latitude\": -3.452888,\n    \"longitude\": -38.964273,\n    \"uf\": \"CE\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "8ec8cfe4-ca9b-4d44-a8ee-7099c284930b",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "",
+    "name": "management/enclosure/68065",
+    "url": "management/enclosure/68065",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-10-05T17:48:59.939Z",
+    "modified": "2022-10-05T17:49:06.849Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "06d8597e-abdb-4643-a9bf-3cb9a2649bef",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "",
+    "name": "report/dashboard/progress/enclosure/list",
+    "url": "report/dashboard/progress/enclosure/list?projeto_id=489&tipo_caixa=emenda",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-10-05T19:17:08.966Z",
+    "modified": "2022-10-05T19:18:06.681Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "projeto_id",
+        "value": "489",
+        "isPath": false
+      },
+      {
+        "name": "tipo_caixa",
+        "value": "emenda",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "fe34291d-f811-431a-9709-72e35161aa29",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "",
+    "name": "report/dashboard/fusion/enclosure/list",
+    "url": "report/dashboard/fusion/enclosure/list?projeto_id=489&tipo_caixa=emenda&situacao=14",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-10-05T19:34:03.071Z",
+    "modified": "2022-10-05T19:35:01.928Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "projeto_id",
+        "value": "489",
+        "isPath": false
+      },
+      {
+        "name": "tipo_caixa",
+        "value": "emenda",
+        "isPath": false
+      },
+      {
+        "name": "situacao",
+        "value": "14",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "18287554-be20-4378-afe7-168207c7954c",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "",
+    "name": "report/dashboard/progress/enclosure/list",
+    "url": "report/dashboard/progress/enclosure/list?tipo_caixa=terminacao&esta_instalada=true",
+    "method": "GET",
+    "sortNum": 60000,
+    "created": "2022-10-06T13:33:02.572Z",
+    "modified": "2022-10-06T13:51:00.489Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "tipo_caixa",
+        "value": "terminacao",
+        "isPath": false
+      },
+      {
+        "name": "esta_instalada",
+        "value": "true",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "cafe5bbb-bdb3-475e-9e6e-6bcf18477e35",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "",
+    "name": "integration/warehouse/employee",
+    "url": "integration/warehouse/employee",
+    "method": "GET",
+    "sortNum": 70000,
+    "created": "2022-10-07T17:09:07.323Z",
+    "modified": "2022-10-07T17:10:04.056Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "9ac24671-d4ce-46a3-98fb-155a264ea4eb",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "",
+    "name": "integration/attendance/address_change_requests",
+    "url": "integration/attendance/address_change_requests?condominium_id=100",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2022-10-13T13:23:08.148Z",
+    "modified": "2022-10-13T13:24:58.420Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "condominium_id",
+        "value": "100",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]

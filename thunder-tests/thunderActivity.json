@@ -1,0 +1,133 @@
+[
+  {
+    "_id": "dfc9ada4-fa50-41b6-8121-d8a51c26caa7",
+    "colId": "history",
+    "containerId": "",
+    "name": "management/enclosure/68065",
+    "url": "{{linkFttx}}management/enclosures?project_id=1555&limit=15&offset=0&sort=desc&order=high_signal&desc=true&notify=true",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-05T17:43:48.215Z",
+    "modified": "2022-10-14T18:30:27.102Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "project_id",
+        "value": "1555",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "15",
+        "isPath": false
+      },
+      {
+        "name": "offset",
+        "value": "0",
+        "isPath": false
+      },
+      {
+        "name": "sort",
+        "value": "desc",
+        "isPath": false
+      },
+      {
+        "name": "order",
+        "value": "high_signal",
+        "isPath": false
+      },
+      {
+        "name": "desc",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "notify",
+        "value": "true",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "json",
+      "raw": "{\n\t\"id\": 68065,\n  \"name\": \"BB11.4.2\",\n  \"created_at\": \"2020-05-04T14:56:38.246252-03:00\",\n  \"city_name\": \"Juazeiro do Norte\",\n  \"city_id\": 120,\n  \"active\": true,\n  \"situation_id\": 1,\n  \"situacao_fusao\": \"Ativa\",\n  \"require_notification\": false,\n  \"negotiated\": false,\n  \"model_id\": 6,\n  \"model_name\": \"1:8\",\n  \"latitude\": -3.456248,\n  \"longitude\": -38.958725,\n  \"derivation\": false,\n  \"distribution\": false,\n  \"termination\": true,\n  \"amendment\": false,\n  \"enclosure_reference\": \"FIBERHOME\",\n  \"enclosure_complement\": \"Poste\",\n  \"biggest_signal\": 20,\n  \"lowest_signal\": 20,\n  \"locality_id\": 535689,\n  \"locality_name\": \"3x\",\n  \"andar_id\": 104,\n  \"andar_numero\": 6,\n\t\"instalacao_futura\": true,\n\t\"address\": {\n    \"id\": 73083,\n    \"street\": \"RUA MARIA ACÁCIO DE MATOS\",\n    \"city_id\": 120,\n    \"city_name\": \"Juazeiro do Norte\",\n    \"number\": \"0\",\n    \"neighborhood\": \"Centro\",\n    \"zip_code\": \"62680000\",\n    \"latitude\": -3.452888,\n    \"longitude\": -38.964273,\n    \"uf\": \"CE\"\n  }\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{tokenHomo}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "2d7ca31c-6c0f-408b-9ec5-f67ad1c9b417",
+    "colId": "history",
+    "containerId": "",
+    "name": "management/enclosure/68065 Copy",
+    "url": "{{linkFttx}}service/3164/enclosure?limit=15&offset=0&sort=desc&order=highest_signal&desc=true&notify=true",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-05T17:43:48.215Z",
+    "modified": "2022-10-13T13:01:53.748Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "limit",
+        "value": "15",
+        "isPath": false
+      },
+      {
+        "name": "offset",
+        "value": "0",
+        "isPath": false
+      },
+      {
+        "name": "sort",
+        "value": "desc",
+        "isPath": false
+      },
+      {
+        "name": "order",
+        "value": "highest_signal",
+        "isPath": false
+      },
+      {
+        "name": "desc",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "notify",
+        "value": "true",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{tokenDev}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "558eb385-b01f-47e1-93cc-c65bfd6a654e",
+    "colId": "history",
+    "containerId": "",
+    "name": "management/enclosure/68065 Copy Copy",
+    "url": "{{linkFttx}}service/3674/consumption",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-10-05T17:43:48.215Z",
+    "modified": "2022-10-11T18:15:02.854Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"materials\": [\n        {\n            \"amount\": 1,\n            \"item_id\": 99707,\n            \"quantity\": 909997890,\n            \"father_id\": null,\n            \"item_name\": \"Abracadeira Bap 3\",\n            \"category_id\": 17,\n            \"locality_id\": 179080,\n            \"category_name\": \"INFRA REDE\",\n            \"item_granel_id\": 1789225,\n            \"subcategory_id\": 3683,\n            \"manufacturer_id\": 89,\n            \"subcategory_name\": \"FERRAGEM - Granel\",\n            \"manufacturer_name\": \"PRESLEY\",\n            \"manufacturer_model_id\": 314\n        }\n    ],\n    \"locality_id\": 190966\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MzMsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Imx1Y2FzZnR0eHRlc3RhZG9yQGJyaXNhbmV0LmNvbSIsImVtcGxveWVlX2lkIjo5NDIyLCJpZCI6ODg3MywiZXh0ZXJuYWxfY29kZSI6IjQ0YjcxYWUzLTIxYjgtNDk2My04YTYxLWI0OGRlZTk5MjhjNyIsInVzZXJuYW1lIjoiMzg0LjM0OC4yODAtMjIiLCJuYW1lIjoiTHVjYXMgRlRUWCIsInBhZ3VlYnJpc2EiOnsiZG9tYWluX2lkIjoxfSwicHJlZmVyZW5jZXMiOnsiZmlyc3RfbG9naW5fcmF1bWlsIjowLCJ0aXBvX21hcGEiOiJoeWJyaWQifSwicmV2YW4iOnsiYnlwYXNzIjpmYWxzZX0sInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg4OTc0MTIwMzA0LCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoyNTgxNjgsInN0b3JhZ2UiOiI4MzBiM2ZhOS0yNTcxLTQwZWEtYmQxMS1lNGVmM2Y4NGFhMjAiLCJleHAiOjE2NjgxMDIzNzksImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjY1NTEwMzc5fQ.Py15BFIdx5BBWdv5QWYKQNT-2WftnlKYkStdusogRqc "
+    },
+    "tests": []
+  }
+]
