@@ -170,5 +170,33 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "39ffaaa2-51f6-4788-bad5-79e19e536cb3",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "130b39e7-4cde-4b88-b03d-e0e34823f7c6",
+    "name": "active_enclosures/total",
+    "url": "report/active_enclosures",
+    "method": "GET",
+    "sortNum": 90000,
+    "created": "2022-10-20T17:50:05.201Z",
+    "modified": "2022-10-20T17:50:36.126Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b54ffee3-4897-4ea1-b7dd-9159202abbb9",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "130b39e7-4cde-4b88-b03d-e0e34823f7c6",
+    "name": "active_enclosures",
+    "url": "report/active_enclosures/total",
+    "method": "GET",
+    "sortNum": 100000,
+    "created": "2022-10-20T17:50:18.858Z",
+    "modified": "2022-10-20T17:50:18.858Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

@@ -4,7 +4,22 @@
     "colName": "fttx",
     "created": "2022-09-27T17:10:46.943Z",
     "sortNum": 10000,
-    "folders": [],
+    "folders": [
+      {
+        "_id": "d2681df3-83b8-449d-b7ae-02cb29919a98",
+        "name": "report",
+        "containerId": "",
+        "created": "2022-10-20T17:49:20.602Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "130b39e7-4cde-4b88-b03d-e0e34823f7c6",
+        "name": "active_enclosures",
+        "containerId": "d2681df3-83b8-449d-b7ae-02cb29919a98",
+        "created": "2022-10-20T17:49:35.209Z",
+        "sortNum": 20000
+      }
+    ],
     "settings": {
       "headers": [],
       "auth": {
