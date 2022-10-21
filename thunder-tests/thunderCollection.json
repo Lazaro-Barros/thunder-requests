@@ -18,6 +18,27 @@
         "containerId": "d2681df3-83b8-449d-b7ae-02cb29919a98",
         "created": "2022-10-20T17:49:35.209Z",
         "sortNum": 20000
+      },
+      {
+        "_id": "f37744f0-1ea2-4f52-b323-c2f52bcbb18d",
+        "name": "management",
+        "containerId": "",
+        "created": "2022-10-21T14:34:58.308Z",
+        "sortNum": 30000
+      },
+      {
+        "_id": "901456f4-dd16-47f6-a31c-52f26f0f4154",
+        "name": "enclosure",
+        "containerId": "f37744f0-1ea2-4f52-b323-c2f52bcbb18d",
+        "created": "2022-10-21T14:35:03.994Z",
+        "sortNum": 40000
+      },
+      {
+        "_id": "e006b40a-1609-404c-9f3c-216e587e00b4",
+        "name": "condominium",
+        "containerId": "f37744f0-1ea2-4f52-b323-c2f52bcbb18d",
+        "created": "2022-10-21T14:35:20.048Z",
+        "sortNum": 50000
       }
     ],
     "settings": {
