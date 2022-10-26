@@ -39,6 +39,20 @@
         "containerId": "f37744f0-1ea2-4f52-b323-c2f52bcbb18d",
         "created": "2022-10-21T14:35:20.048Z",
         "sortNum": 50000
+      },
+      {
+        "_id": "8cfe300b-641b-4609-90e0-fce0bbab47ac",
+        "name": "integrations",
+        "containerId": "",
+        "created": "2022-10-26T17:14:58.207Z",
+        "sortNum": 60000
+      },
+      {
+        "_id": "f5378f30-21b7-4d50-95ea-9aeb18d25d75",
+        "name": "attendance",
+        "containerId": "8cfe300b-641b-4609-90e0-fce0bbab47ac",
+        "created": "2022-10-26T17:15:05.455Z",
+        "sortNum": 70000
       }
     ],
     "settings": {

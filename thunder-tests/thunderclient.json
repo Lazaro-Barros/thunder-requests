@@ -223,5 +223,58 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "2852788f-374b-4dc7-9066-3333834dfe90",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "e006b40a-1609-404c-9f3c-216e587e00b4",
+    "name": "merge_info",
+    "url": "management/condominium/831/merge_info",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-10-24T19:51:48.029Z",
+    "modified": "2022-10-24T19:52:58.826Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "cb435606-fc29-4ca1-b64c-3964451f2d44",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "e006b40a-1609-404c-9f3c-216e587e00b4",
+    "name": "merge",
+    "url": "management/condominiums/merge",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-10-25T20:09:07.248Z",
+    "modified": "2022-10-25T20:11:50.566Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"condominio_principal_id\":16,\n  \"condominio_para_mesclar_id\":17\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "ea7cefff-ccef-4ab5-9ede-a58b020c99a3",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "f5378f30-21b7-4d50-95ea-9aeb18d25d75",
+    "name": "address_chenge_requests",
+    "url": "integration/attendance/address_change_requests?condominium_id=1",
+    "method": "GET",
+    "sortNum": 130000,
+    "created": "2022-10-26T17:15:30.863Z",
+    "modified": "2022-10-26T17:15:57.788Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "condominium_id",
+        "value": "1",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]
