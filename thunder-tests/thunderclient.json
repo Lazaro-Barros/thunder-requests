@@ -4,19 +4,53 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "e006b40a-1609-404c-9f3c-216e587e00b4",
     "name": "/management/condominiums/events",
-    "url": "management/condominiums/events?limit=0",
+    "url": "management/condominiums/events?order=data_criacao&sort=desc&limit=15&offset=0&cidade_id=120&desc=true&notify=true",
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-09-27T17:11:10.283Z",
-    "modified": "2022-10-21T14:44:11.459Z",
+    "modified": "2022-11-11T14:53:13.250Z",
     "headers": [],
     "params": [
       {
+        "name": "order",
+        "value": "data_criacao",
+        "isPath": false
+      },
+      {
+        "name": "sort",
+        "value": "desc",
+        "isPath": false
+      },
+      {
         "name": "limit",
+        "value": "15",
+        "isPath": false
+      },
+      {
+        "name": "offset",
         "value": "0",
+        "isPath": false
+      },
+      {
+        "name": "cidade_id",
+        "value": "120",
+        "isPath": false
+      },
+      {
+        "name": "desc",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "notify",
+        "value": "true",
         "isPath": false
       }
     ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMjAsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6IkFseXNzb24ubWFzY2FyZW5oYXNAZ3J1cG9icmlzYW5ldC5jb20uYnIiLCJlbXBsb3llZV9pZCI6MzU3MywiaWQiOjI4ODQsImV4dGVybmFsX2NvZGUiOiIxMWRlYzIwMi0wZTIzLTQ0NDAtODZmZC00YzBmMTFkMjUzMGMiLCJ1c2VybmFtZSI6IjA3NC4wOTYuOTIzLTQwIiwibmFtZSI6IkFseXNzb24gS2V5c3NvbiIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5NzQ0ODEzMywic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6MTk2NzM0LCJzdG9yYWdlIjoiNzBkNmQyODMtOGQ0Ny00ODNlLThlNzUtNjgxYTQxYTRkMmJhIiwiZXhwIjoxNjcwNDIxMDQ4LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2NzgyOTA0OH0.zmkXCWHe4Iwvl1zg5B0aNodyNPdWxe4L5DpxameVI_k"
+    },
     "tests": []
   },
   {
@@ -229,11 +263,11 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "e006b40a-1609-404c-9f3c-216e587e00b4",
     "name": "merge_info",
-    "url": "management/condominium/831/merge_info",
+    "url": "management/condominium/15489/merge_info",
     "method": "GET",
     "sortNum": 20000,
     "created": "2022-10-24T19:51:48.029Z",
-    "modified": "2022-10-24T19:52:58.826Z",
+    "modified": "2022-11-01T17:06:36.395Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -266,7 +300,7 @@
     "method": "GET",
     "sortNum": 130000,
     "created": "2022-10-26T17:15:30.863Z",
-    "modified": "2022-10-26T17:15:57.788Z",
+    "modified": "2022-11-07T13:51:23.562Z",
     "headers": [],
     "params": [
       {
@@ -275,6 +309,24 @@
         "isPath": false
       }
     ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMjAsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6IkFseXNzb24ubWFzY2FyZW5oYXNAZ3J1cG9icmlzYW5ldC5jb20uYnIiLCJlbXBsb3llZV9pZCI6MzU3MywiaWQiOjI4ODQsImV4dGVybmFsX2NvZGUiOiIxMWRlYzIwMi0wZTIzLTQ0NDAtODZmZC00YzBmMTFkMjUzMGMiLCJ1c2VybmFtZSI6IjA3NC4wOTYuOTIzLTQwIiwibmFtZSI6IkFseXNzb24gS2V5c3NvbiIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5NzQ0ODEzMywic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6MTk2NzM0LCJzdG9yYWdlIjoiNzBkNmQyODMtOGQ0Ny00ODNlLThlNzUtNjgxYTQxYTRkMmJhIiwiZXhwIjoxNjcwNDIxMDQ4LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2NzgyOTA0OH0.zmkXCWHe4Iwvl1zg5B0aNodyNPdWxe4L5DpxameVI_k"
+    },
+    "tests": []
+  },
+  {
+    "_id": "7cebfcd0-7014-4158-8b86-847075f96c18",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "eca4c44a-37ac-4e34-b3be-c91556f3bd40",
+    "name": "service/",
+    "url": "service/543",
+    "method": "GET",
+    "sortNum": 140000,
+    "created": "2022-11-17T17:26:49.720Z",
+    "modified": "2022-11-17T17:27:47.492Z",
+    "headers": [],
+    "params": [],
     "tests": []
   }
 ]

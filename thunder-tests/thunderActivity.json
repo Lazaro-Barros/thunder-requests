@@ -4,46 +4,21 @@
     "colId": "history",
     "containerId": "",
     "name": "management/enclosure/68065",
-    "url": "{{linkFttx}}management/enclosures?project_id=1555&limit=15&offset=0&sort=desc&order=high_signal&desc=true&notify=true",
+    "url": "https://revanh-atendimento-02.brisanet.net.br/api/v1/query/fttx/condominium/requests?condominium_id=15532",
     "method": "GET",
     "sortNum": 0,
     "created": "2022-10-05T17:43:48.215Z",
-    "modified": "2022-10-14T18:30:27.102Z",
-    "headers": [],
+    "modified": "2022-11-10T14:09:12.273Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": ""
+      }
+    ],
     "params": [
       {
-        "name": "project_id",
-        "value": "1555",
-        "isPath": false
-      },
-      {
-        "name": "limit",
-        "value": "15",
-        "isPath": false
-      },
-      {
-        "name": "offset",
-        "value": "0",
-        "isPath": false
-      },
-      {
-        "name": "sort",
-        "value": "desc",
-        "isPath": false
-      },
-      {
-        "name": "order",
-        "value": "high_signal",
-        "isPath": false
-      },
-      {
-        "name": "desc",
-        "value": "true",
-        "isPath": false
-      },
-      {
-        "name": "notify",
-        "value": "true",
+        "name": "condominium_id",
+        "value": "15532",
         "isPath": false
       }
     ],
@@ -54,7 +29,7 @@
     },
     "auth": {
       "type": "bearer",
-      "bearer": "{{tokenHomo}}"
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTI3LCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJsYXphcm9AZW1haWwuY29tIiwiZW1wbG95ZWVfaWQiOjkzNjUsImlkIjo4ODIzLCJleHRlcm5hbF9jb2RlIjoiNDc5ZTAyMjItMGU4YS00MzEwLTkwY2MtYjZiNjVkZGIwYjJkIiwidXNlcm5hbWUiOiIwNzAuNjM4LjIzMy0xMCIsIm5hbWUiOiJKb2FvIExhemFybyIsIm90cF9lbmFibGVkIjp0cnVlLCJvdHBfc2V0X3VwIjp0cnVlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5OTY2NjU1NSwic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6MjcxMzMyLCJzdG9yYWdlIjoiY2QwMTViODUtY2Q4Ni00NDQ0LTlkNzgtZTczMDA4Yjg4ODI3IiwiZXhwIjoxNjcwMTc3NzU5LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2NzU4NTc1OX0.f34VrVMU4b-QyKtx0hNjbR-B5Z1ZeDZpJSvC0whI0Kw"
     },
     "tests": []
   },
@@ -63,13 +38,23 @@
     "colId": "history",
     "containerId": "",
     "name": "management/enclosure/68065 Copy",
-    "url": "{{linkFttx}}service/3164/enclosure?limit=15&offset=0&sort=desc&order=highest_signal&desc=true&notify=true",
+    "url": "https://revan-fttx.brisanet.net.br/api/v1/management/condominiums/events?order=data_criacao&sort=desc&limit=15&offset=0&cidade_id=120&desc=true&notify=true: 504 OK",
     "method": "GET",
     "sortNum": 0,
     "created": "2022-10-05T17:43:48.215Z",
-    "modified": "2022-10-13T13:01:53.748Z",
+    "modified": "2022-11-11T14:50:40.046Z",
     "headers": [],
     "params": [
+      {
+        "name": "order",
+        "value": "data_criacao",
+        "isPath": false
+      },
+      {
+        "name": "sort",
+        "value": "desc",
+        "isPath": false
+      },
       {
         "name": "limit",
         "value": "15",
@@ -81,13 +66,8 @@
         "isPath": false
       },
       {
-        "name": "sort",
-        "value": "desc",
-        "isPath": false
-      },
-      {
-        "name": "order",
-        "value": "highest_signal",
+        "name": "cidade_id",
+        "value": "120",
         "isPath": false
       },
       {
@@ -97,13 +77,13 @@
       },
       {
         "name": "notify",
-        "value": "true",
+        "value": "true: 504 OK",
         "isPath": false
       }
     ],
     "auth": {
       "type": "bearer",
-      "bearer": "{{tokenDev}}"
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTIwLCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJkZWV2ZWRAZ21haWwuY29tIiwiZW1wbG95ZWVfaWQiOjExMDEzLCJpZCI6MTAzMzIsInBpY3R1cmUiOiJwZXJzb24tcGxhY2Vob2xkZXIuanBnIiwidXNlcm5hbWUiOiIwMjUuOTQyLjU4My00MiIsIm5hbWUiOiJERUVWRUQgSElVU1RPTiBET1MgU0FOVE9TIFBFUkVJUkEiLCJvdHBfZW5hYmxlZCI6dHJ1ZSwib3RwX3NldF91cCI6dHJ1ZSwicGFndWVicmlzYSI6eyJkb21haW5faWQiOjF9LCJwcmVmZXJlbmNlcyI6eyJmaXJzdF9sb2dpbl9yYXVtaWwiOjAsInRpcG9fbWFwYSI6Imh5YnJpZCJ9LCJyZXZhbiI6eyJieXBhc3MiOmZhbHNlfSwic2VjdG9ycyI6W3siaWQiOjYzLCJuYW1lIjoiRnJvbnRlbmQiLCJzdXBlcnZpc29yIjpmYWxzZX0seyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbNjMsOF0sInBob25lIjo4ODk5NjMwOTk2Mywic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6MzQzNjQyMiwic3RvcmFnZSI6ImFlNmExMDRkLWU5OGMtNGY0Yy05YzljLWRkMTE2NDY1N2M4ZSIsImV4cCI6MTY3MDc2ODUzNywiaXNzIjoiQnJpc2FuZXQiLCJuYmYiOjE2NjgxNzY1Mzd9.mTVtxbFQ3ngvolF2UqV6M3-vxx0ynIaAv-lXUa9bzfs"
     },
     "tests": []
   },
@@ -116,7 +96,7 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-10-05T17:43:48.215Z",
-    "modified": "2022-10-11T18:15:02.854Z",
+    "modified": "2022-10-28T17:30:22.037Z",
     "headers": [],
     "params": [],
     "body": {
@@ -126,7 +106,60 @@
     },
     "auth": {
       "type": "bearer",
-      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MzMsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Imx1Y2FzZnR0eHRlc3RhZG9yQGJyaXNhbmV0LmNvbSIsImVtcGxveWVlX2lkIjo5NDIyLCJpZCI6ODg3MywiZXh0ZXJuYWxfY29kZSI6IjQ0YjcxYWUzLTIxYjgtNDk2My04YTYxLWI0OGRlZTk5MjhjNyIsInVzZXJuYW1lIjoiMzg0LjM0OC4yODAtMjIiLCJuYW1lIjoiTHVjYXMgRlRUWCIsInBhZ3VlYnJpc2EiOnsiZG9tYWluX2lkIjoxfSwicHJlZmVyZW5jZXMiOnsiZmlyc3RfbG9naW5fcmF1bWlsIjowLCJ0aXBvX21hcGEiOiJoeWJyaWQifSwicmV2YW4iOnsiYnlwYXNzIjpmYWxzZX0sInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg4OTc0MTIwMzA0LCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoyNTgxNjgsInN0b3JhZ2UiOiI4MzBiM2ZhOS0yNTcxLTQwZWEtYmQxMS1lNGVmM2Y4NGFhMjAiLCJleHAiOjE2NjgxMDIzNzksImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjY1NTEwMzc5fQ.Py15BFIdx5BBWdv5QWYKQNT-2WftnlKYkStdusogRqc "
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTI3LCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJsYXphcm9AZW1haWwuY29tIiwiZW1wbG95ZWVfaWQiOjkzNjUsImlkIjo4ODIzLCJleHRlcm5hbF9jb2RlIjoiNDc5ZTAyMjItMGU4YS00MzEwLTkwY2MtYjZiNjVkZGIwYjJkIiwidXNlcm5hbWUiOiIwNzAuNjM4LjIzMy0xMCIsIm5hbWUiOiJKb2FvIExhemFybyIsIm90cF9lbmFibGVkIjp0cnVlLCJvdHBfc2V0X3VwIjp0cnVlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5OTY2NjU1NSwic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6MjYyNzM5LCJzdG9yYWdlIjoiZjVhNDU0ZjUtMzY1MS00NTdlLWEyZjQtZDZmOWM0M2JjMzRiIiwiZXhwIjoxNjY4OTU1OTk3LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2NjM2Mzk5N30.NLOa5wtHH5LKCFQoh2_N0ir2m2VaP0oNLqvybtJ8iD0"
+    },
+    "tests": []
+  },
+  {
+    "_id": "c68f3d09-89b9-42b9-a4f7-a57655957574",
+    "colId": "history",
+    "containerId": "",
+    "name": "management/enclosure/68065",
+    "url": "{{linkFttx}}management/enclosure/255319",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-10-05T17:43:48.215Z",
+    "modified": "2022-10-28T18:34:39.904Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\": 255012,\n  \"name\": \"AZ01.3.1\",\n  \"created_at\": \"2022-03-23T13:19:56.826635-03:00\",\n  \"city_name\": \"Juazeiro do Norte\",\n  \"city_id\": 120,\n  \"active\": false,\n  \"situation_id\": 8,\n  \"situacao_fusao\": \"Projetada\",\n  \"require_notification\": false,\n  \"negotiated\": false,\n  \"condominium_name\": \"condominioLinhaPreta\",\n  \"condominium_id\": 15880,\n  \"model_id\": 6,\n  \"model_name\": \"1:8\",\n  \"latitude\": -7.203361077380254,\n  \"longitude\": -39.378477169422354,\n  \"derivation\": false,\n  \"distribution\": false,\n  \"termination\": true,\n  \"amendment\": false,\n  \"enclosure_reference\": \"TCX ONU-IP65-PCP-08-SC/APC\",\n  \"enclosure_complement\": \"Condomínio Residencial\",\n  \"locality_id\": 190756,\n  \"locality_name\": \"Localidade FTTA - Base\",\n  \"address\": {\n    \"id\": 294598,\n    \"street\": \"1º de Maio\",\n    \"city_id\": 120,\n    \"city_name\": \"Juazeiro do Norte\",\n    \"number\": \"180\",\n    \"neighborhood\": \"Pio XII\",\n    \"zip_code\": \"63020100\",\n    \"complement\": \"\",\n    \"latitude\": -7.203361077380253,\n    \"longitude\": -39.378477169422354,\n    \"uf\": \"CE\"\n  },\n  \"localidade_tipo_id\": 2,\n  \"instalacao_futura\": true\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTI3LCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJsYXphcm9AZW1haWwuY29tIiwiZW1wbG95ZWVfaWQiOjkzNjUsImlkIjo4ODIzLCJleHRlcm5hbF9jb2RlIjoiNDc5ZTAyMjItMGU4YS00MzEwLTkwY2MtYjZiNjVkZGIwYjJkIiwidXNlcm5hbWUiOiIwNzAuNjM4LjIzMy0xMCIsIm5hbWUiOiJKb2FvIExhemFybyIsIm90cF9lbmFibGVkIjp0cnVlLCJvdHBfc2V0X3VwIjp0cnVlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5OTY2NjU1NSwic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6MjYyNzM5LCJzdG9yYWdlIjoiZjVhNDU0ZjUtMzY1MS00NTdlLWEyZjQtZDZmOWM0M2JjMzRiIiwiZXhwIjoxNjY4OTU1OTk3LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2NjM2Mzk5N30.NLOa5wtHH5LKCFQoh2_N0ir2m2VaP0oNLqvybtJ8iD0"
+    },
+    "tests": []
+  },
+  {
+    "_id": "6300bee7-ee83-49d3-806c-ffd088e0dd50",
+    "colId": "history",
+    "containerId": "",
+    "name": "sso",
+    "url": "https://revanl.brisanet.net.br/sso/v1/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-10-05T17:43:48.215Z",
+    "modified": "2022-11-07T13:22:47.372Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"integracao.fttx\",\n  \"password\": \"123456\"\n}",
+      "form": []
     },
     "tests": []
   }
