@@ -328,5 +328,19 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "88294567-8bea-46f3-a969-0645bc2f819a",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "time_indicators",
+    "url": "report/dashboard/cabling/489/time_indicators",
+    "method": "GET",
+    "sortNum": 150000,
+    "created": "2022-11-21T13:38:52.702Z",
+    "modified": "2022-11-21T13:39:12.457Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
