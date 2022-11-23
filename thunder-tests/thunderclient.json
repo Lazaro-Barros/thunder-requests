@@ -230,11 +230,11 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "130b39e7-4cde-4b88-b03d-e0e34823f7c6",
     "name": "active_enclosures",
-    "url": "report/active_enclosures/total",
+    "url": "report/active_enclosures",
     "method": "GET",
     "sortNum": 100000,
     "created": "2022-10-20T17:50:18.858Z",
-    "modified": "2022-10-20T17:50:18.858Z",
+    "modified": "2022-11-23T17:39:16.074Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -341,6 +341,91 @@
     "modified": "2022-11-21T13:39:12.457Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "951dcb36-78c5-41b9-84ed-daaff02e226a",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "consumption_by_period",
+    "url": "report/dashboard/cabling/489/consumption_by_period?periodo=week&cabo=false",
+    "method": "GET",
+    "sortNum": 160000,
+    "created": "2022-11-21T18:15:47.093Z",
+    "modified": "2022-11-21T18:31:15.027Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "periodo",
+        "value": "week",
+        "isPath": false
+      },
+      {
+        "name": "cabo",
+        "value": "false",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "f65f2b13-c40a-4edc-bee7-7945009c6c43",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "consumption_collection",
+    "url": "report/dashboard/cabling/489/consumption_collection?cabo=false",
+    "method": "GET",
+    "sortNum": 170000,
+    "created": "2022-11-22T14:48:47.167Z",
+    "modified": "2022-11-23T19:10:25.080Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "cabo",
+        "value": "false",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "aa59e9ce-98e8-4d81-bbce-8de56dcdb554",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "materials_totals",
+    "url": "report/dashboard/cabling/489/materials_totals?cabo=false",
+    "method": "GET",
+    "sortNum": 180000,
+    "created": "2022-11-23T13:07:56.273Z",
+    "modified": "2022-11-23T19:11:35.313Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "cabo",
+        "value": "false",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "a9f3f3fe-c037-42b3-ab96-63762d9b742a",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "estimated_comsumed_total",
+    "url": "report/dashboard/cabling/489/estimated_consumed_total?cabo=false",
+    "method": "GET",
+    "sortNum": 190000,
+    "created": "2022-11-23T18:09:32.327Z",
+    "modified": "2022-11-23T18:12:23.970Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "cabo",
+        "value": "false",
+        "isPath": false
+      }
+    ],
     "tests": []
   }
 ]
