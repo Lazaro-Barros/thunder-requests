@@ -401,16 +401,21 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
     "name": "materials_totals",
-    "url": "report/dashboard/cabling/489/materials_totals?cabo=false",
+    "url": "report/dashboard/cabling/1611/materials_totals?cabo=true&equipe_id=440",
     "method": "GET",
     "sortNum": 180000,
     "created": "2022-11-23T13:07:56.273Z",
-    "modified": "2022-11-23T19:11:35.313Z",
+    "modified": "2023-01-04T13:41:52.839Z",
     "headers": [],
     "params": [
       {
         "name": "cabo",
-        "value": "false",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "equipe_id",
+        "value": "440",
         "isPath": false
       }
     ],
@@ -535,15 +540,33 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
     "name": "teams_totals_per_day",
-    "url": "report/dashboard/cabling/489/teams_totals_per_day?total=true",
+    "url": "report/dashboard/cabling/1611/teams_totals_per_day",
     "method": "GET",
     "sortNum": 240000,
     "created": "2023-01-03T16:25:45.067Z",
-    "modified": "2023-01-03T18:52:49.608Z",
+    "modified": "2023-01-04T13:39:45.505Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMDEsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Im9hbWFkb2RlZGV1c0BnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6MTYzMywiaWQiOjE1NzAsImV4dGVybmFsX2NvZGUiOiJhZmNkY2I3NC03MDZkLTRkN2MtODk0YS1mMzlkMTIxYzExYjciLCJ1c2VybmFtZSI6IjA3MC42MzguMjMzLTEwIiwibmFtZSI6Ikx1Y2FzIFJhbmllbCIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JfaWQiOjE3Miwic2VjdG9yX25hbWUiOiJEZXNlbnZvbHZlZG9yZXMgQ2VudHJhbCIsInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg0OTk4NDEzNTMwLCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoxOTk4OTgsInN0b3JhZ2UiOiIwNWMzZjRkMi0wNzJhLTRmYTgtYjFmMy1hMWE2NTM5NGNmYTMiLCJleHAiOjE2NzUzNTUyNjAsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjcyNzYzMjYwfQ.YUMb6t6mYfXdAG5ID4xm0fSDfPXK9txuHCiWvems0oI"
+    },
+    "tests": []
+  },
+  {
+    "_id": "518cc77d-bc9c-4199-a9f4-5ed27a72f59b",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "days_with_comsumption",
+    "url": "report/dashboard/cabling/1611/days_with_comsumption?cabo=true",
+    "method": "GET",
+    "sortNum": 250000,
+    "created": "2023-01-04T16:59:08.190Z",
+    "modified": "2023-01-04T17:01:42.691Z",
     "headers": [],
     "params": [
       {
-        "name": "total",
+        "name": "cabo",
         "value": "true",
         "isPath": false
       }
