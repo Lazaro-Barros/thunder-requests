@@ -320,13 +320,17 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "eca4c44a-37ac-4e34-b3be-c91556f3bd40",
     "name": "service/",
-    "url": "service/543",
+    "url": "services",
     "method": "GET",
     "sortNum": 140000,
     "created": "2022-11-17T17:26:49.720Z",
-    "modified": "2022-11-17T17:27:47.492Z",
+    "modified": "2022-12-07T19:52:30.105Z",
     "headers": [],
     "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMDEsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Im9hbWFkb2RlZGV1c0BnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6MTYzMywiaWQiOjE1NzAsImV4dGVybmFsX2NvZGUiOiJhZmNkY2I3NC03MDZkLTRkN2MtODk0YS1mMzlkMTIxYzExYjciLCJ1c2VybmFtZSI6IjA3MC42MzguMjMzLTEwIiwibmFtZSI6Ikx1Y2FzIFJhbmllbCIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JfaWQiOjE3Miwic2VjdG9yX25hbWUiOiJEZXNlbnZvbHZlZG9yZXMgQ2VudHJhbCIsInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg0OTk4NDEzNTMwLCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoxOTkzMDEsInN0b3JhZ2UiOiI4YjIyMDNmZi1iYTdkLTQ2Y2MtOWJkMi1lY2U4MDFhNjUxYjAiLCJleHAiOjE2NzI0MjkyODYsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjY5ODM3Mjg2fQ.bFGe9WMACgQvtSCjDjjUUwTwEjr1PgS5cTSk9QQl0x4"
+    },
     "tests": []
   },
   {
@@ -348,16 +352,16 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
     "name": "consumption_by_period",
-    "url": "report/dashboard/cabling/489/consumption_by_period?periodo=week&cabo=false",
+    "url": "report/dashboard/cabling/1611/consumption_by_period?periodo=day&cabo=false",
     "method": "GET",
     "sortNum": 160000,
     "created": "2022-11-21T18:15:47.093Z",
-    "modified": "2022-11-21T18:31:15.027Z",
+    "modified": "2022-11-29T14:31:59.190Z",
     "headers": [],
     "params": [
       {
         "name": "periodo",
-        "value": "week",
+        "value": "day",
         "isPath": false
       },
       {
@@ -366,6 +370,10 @@
         "isPath": false
       }
     ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTI3LCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJsYXphcm9AZW1haWwuY29tIiwiZW1wbG95ZWVfaWQiOjkzNjUsImlkIjo4ODIzLCJleHRlcm5hbF9jb2RlIjoiNDc5ZTAyMjItMGU4YS00MzEwLTkwY2MtYjZiNjVkZGIwYjJkIiwidXNlcm5hbWUiOiIwNzAuNjM4LjIzMy0xMCIsIm5hbWUiOiJKb2FvIExhemFybyIsIm90cF9lbmFibGVkIjp0cnVlLCJvdHBfc2V0X3VwIjp0cnVlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5OTY2NjU1NSwic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6Mjg1MTg4LCJzdG9yYWdlIjoiZmY1ZmY5OTctNTljYi00NzY1LWExODgtNjI1N2ViYmY3YjZmIiwiZXhwIjoxNjcxNzI5Mjc4LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2OTEzNzI3OH0.uggucu_cBb76GWhmCjqCUWv6joamf-OX55v4DelzcDc"
+    },
     "tests": []
   },
   {
@@ -426,6 +434,124 @@
         "isPath": false
       }
     ],
+    "tests": []
+  },
+  {
+    "_id": "a26e4558-09b9-4c34-9063-b091b64469a6",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "cantles_by_period",
+    "url": "report/dashboard/cabling/489/cantles_by_period?periodo=month&cabo=false",
+    "method": "GET",
+    "sortNum": 200000,
+    "created": "2022-11-30T19:39:03.630Z",
+    "modified": "2022-11-30T19:41:58.510Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "periodo",
+        "value": "month",
+        "isPath": false
+      },
+      {
+        "name": "cabo",
+        "value": "false",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMDEsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Im9hbWFkb2RlZGV1c0BnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6MTYzMywiaWQiOjE1NzAsImV4dGVybmFsX2NvZGUiOiJhZmNkY2I3NC03MDZkLTRkN2MtODk0YS1mMzlkMTIxYzExYjciLCJ1c2VybmFtZSI6IjA3MC42MzguMjMzLTEwIiwibmFtZSI6Ikx1Y2FzIFJhbmllbCIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JfaWQiOjE3Miwic2VjdG9yX25hbWUiOiJEZXNlbnZvbHZlZG9yZXMgQ2VudHJhbCIsInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg0OTk4NDEzNTMwLCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoxOTkzMDEsInN0b3JhZ2UiOiI4YjIyMDNmZi1iYTdkLTQ2Y2MtOWJkMi1lY2U4MDFhNjUxYjAiLCJleHAiOjE2NzI0MjkyODYsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjY5ODM3Mjg2fQ.bFGe9WMACgQvtSCjDjjUUwTwEjr1PgS5cTSk9QQl0x4"
+    },
+    "tests": []
+  },
+  {
+    "_id": "e0027ca0-2e02-4d62-b49d-791e4c1d31d6",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "cantles_estimated_implemented",
+    "url": "report/dashboard/cabling/489/cantles_estimated_implemented",
+    "method": "GET",
+    "sortNum": 210000,
+    "created": "2022-12-01T13:36:15.862Z",
+    "modified": "2022-12-01T13:36:52.708Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMDEsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Im9hbWFkb2RlZGV1c0BnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6MTYzMywiaWQiOjE1NzAsImV4dGVybmFsX2NvZGUiOiJhZmNkY2I3NC03MDZkLTRkN2MtODk0YS1mMzlkMTIxYzExYjciLCJ1c2VybmFtZSI6IjA3MC42MzguMjMzLTEwIiwibmFtZSI6Ikx1Y2FzIFJhbmllbCIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JfaWQiOjE3Miwic2VjdG9yX25hbWUiOiJEZXNlbnZvbHZlZG9yZXMgQ2VudHJhbCIsInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg0OTk4NDEzNTMwLCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoxOTkzMDEsInN0b3JhZ2UiOiI4YjIyMDNmZi1iYTdkLTQ2Y2MtOWJkMi1lY2U4MDFhNjUxYjAiLCJleHAiOjE2NzI0MjkyODYsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjY5ODM3Mjg2fQ.bFGe9WMACgQvtSCjDjjUUwTwEjr1PgS5cTSk9QQl0x4"
+    },
+    "tests": []
+  },
+  {
+    "_id": "52fb101a-8f5d-470e-a22b-9d938a4fb934",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "cantles_totals",
+    "url": "report/dashboard/cabling/489/cantles_totals",
+    "method": "GET",
+    "sortNum": 220000,
+    "created": "2022-12-01T19:05:23.109Z",
+    "modified": "2022-12-01T19:06:07.729Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMDEsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Im9hbWFkb2RlZGV1c0BnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6MTYzMywiaWQiOjE1NzAsImV4dGVybmFsX2NvZGUiOiJhZmNkY2I3NC03MDZkLTRkN2MtODk0YS1mMzlkMTIxYzExYjciLCJ1c2VybmFtZSI6IjA3MC42MzguMjMzLTEwIiwibmFtZSI6Ikx1Y2FzIFJhbmllbCIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JfaWQiOjE3Miwic2VjdG9yX25hbWUiOiJEZXNlbnZvbHZlZG9yZXMgQ2VudHJhbCIsInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg0OTk4NDEzNTMwLCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoxOTkzMDEsInN0b3JhZ2UiOiI4YjIyMDNmZi1iYTdkLTQ2Y2MtOWJkMi1lY2U4MDFhNjUxYjAiLCJleHAiOjE2NzI0MjkyODYsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjY5ODM3Mjg2fQ.bFGe9WMACgQvtSCjDjjUUwTwEjr1PgS5cTSk9QQl0x4"
+    },
+    "tests": []
+  },
+  {
+    "_id": "4edc37e0-c703-4423-93cd-4f6d1d122d41",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "teams_totals",
+    "url": "report/dashboard/cabling/1611/teams_totals?cabo=true&trecho_id=20300",
+    "method": "GET",
+    "sortNum": 230000,
+    "created": "2022-12-06T19:47:57.065Z",
+    "modified": "2022-12-06T19:54:27.092Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "cabo",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "trecho_id",
+        "value": "20300",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTI3LCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJsYXphcm9AZW1haWwuY29tIiwiZW1wbG95ZWVfaWQiOjkzNjUsImlkIjo4ODIzLCJleHRlcm5hbF9jb2RlIjoiNDc5ZTAyMjItMGU4YS00MzEwLTkwY2MtYjZiNjVkZGIwYjJkIiwidXNlcm5hbWUiOiIwNzAuNjM4LjIzMy0xMCIsIm5hbWUiOiJKb2FvIExhemFybyIsIm90cF9lbmFibGVkIjp0cnVlLCJvdHBfc2V0X3VwIjp0cnVlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5OTY2NjU1NSwic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6Mjg1MTg4LCJzdG9yYWdlIjoiZmY1ZmY5OTctNTljYi00NzY1LWExODgtNjI1N2ViYmY3YjZmIiwiZXhwIjoxNjcxNzI5Mjc4LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2OTEzNzI3OH0.uggucu_cBb76GWhmCjqCUWv6joamf-OX55v4DelzcDc"
+    },
+    "tests": []
+  },
+  {
+    "_id": "82572835-14e6-41b9-85a5-8d4dde6eef2e",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "teams_totals_per_day",
+    "url": "report/dashboard/cabling/489/teams_totals_per_day?total=true",
+    "method": "GET",
+    "sortNum": 240000,
+    "created": "2023-01-03T16:25:45.067Z",
+    "modified": "2023-01-03T18:52:49.608Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "total",
+        "value": "true",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMDEsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Im9hbWFkb2RlZGV1c0BnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6MTYzMywiaWQiOjE1NzAsImV4dGVybmFsX2NvZGUiOiJhZmNkY2I3NC03MDZkLTRkN2MtODk0YS1mMzlkMTIxYzExYjciLCJ1c2VybmFtZSI6IjA3MC42MzguMjMzLTEwIiwibmFtZSI6Ikx1Y2FzIFJhbmllbCIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JfaWQiOjE3Miwic2VjdG9yX25hbWUiOiJEZXNlbnZvbHZlZG9yZXMgQ2VudHJhbCIsInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg0OTk4NDEzNTMwLCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoxOTk4OTgsInN0b3JhZ2UiOiIwNWMzZjRkMi0wNzJhLTRmYTgtYjFmMy1hMWE2NTM5NGNmYTMiLCJleHAiOjE2NzUzNTUyNjAsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjcyNzYzMjYwfQ.YUMb6t6mYfXdAG5ID4xm0fSDfPXK9txuHCiWvems0oI"
+    },
     "tests": []
   }
 ]
