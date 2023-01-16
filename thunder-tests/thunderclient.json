@@ -401,21 +401,31 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
     "name": "materials_totals",
-    "url": "report/dashboard/cabling/1611/materials_totals?cabo=true&equipe_id=440",
+    "url": "report/dashboard/cabling/1572/materials_totals?projeto_id=1572&equipe_id=430&cabo=true&notify=true",
     "method": "GET",
     "sortNum": 180000,
     "created": "2022-11-23T13:07:56.273Z",
-    "modified": "2023-01-04T13:41:52.839Z",
+    "modified": "2023-01-16T12:33:21.322Z",
     "headers": [],
     "params": [
+      {
+        "name": "projeto_id",
+        "value": "1572",
+        "isPath": false
+      },
+      {
+        "name": "equipe_id",
+        "value": "430",
+        "isPath": false
+      },
       {
         "name": "cabo",
         "value": "true",
         "isPath": false
       },
       {
-        "name": "equipe_id",
-        "value": "440",
+        "name": "notify",
+        "value": "true",
         "isPath": false
       }
     ],
@@ -511,27 +521,37 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
     "name": "teams_totals",
-    "url": "report/dashboard/cabling/1611/teams_totals?cabo=true&trecho_id=20300",
+    "url": "report/dashboard/cabling/1572/teams_totals?projeto_id=1572&equipe_id=430&cabo=true&notify=true",
     "method": "GET",
     "sortNum": 230000,
     "created": "2022-12-06T19:47:57.065Z",
-    "modified": "2022-12-06T19:54:27.092Z",
+    "modified": "2023-01-16T12:32:03.126Z",
     "headers": [],
     "params": [
+      {
+        "name": "projeto_id",
+        "value": "1572",
+        "isPath": false
+      },
+      {
+        "name": "equipe_id",
+        "value": "430",
+        "isPath": false
+      },
       {
         "name": "cabo",
         "value": "true",
         "isPath": false
       },
       {
-        "name": "trecho_id",
-        "value": "20300",
+        "name": "notify",
+        "value": "true",
         "isPath": false
       }
     ],
     "auth": {
       "type": "bearer",
-      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTI3LCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJsYXphcm9AZW1haWwuY29tIiwiZW1wbG95ZWVfaWQiOjkzNjUsImlkIjo4ODIzLCJleHRlcm5hbF9jb2RlIjoiNDc5ZTAyMjItMGU4YS00MzEwLTkwY2MtYjZiNjVkZGIwYjJkIiwidXNlcm5hbWUiOiIwNzAuNjM4LjIzMy0xMCIsIm5hbWUiOiJKb2FvIExhemFybyIsIm90cF9lbmFibGVkIjp0cnVlLCJvdHBfc2V0X3VwIjp0cnVlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbOF0sInBob25lIjo4ODk5OTY2NjU1NSwic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6Mjg1MTg4LCJzdG9yYWdlIjoiZmY1ZmY5OTctNTljYi00NzY1LWExODgtNjI1N2ViYmY3YjZmIiwiZXhwIjoxNjcxNzI5Mjc4LCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY2OTEzNzI3OH0.uggucu_cBb76GWhmCjqCUWv6joamf-OX55v4DelzcDc"
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjpmYWxzZSwiY2l0eV9pZCI6MTI3LCJkZXBhcnRtZW50X2lkIjoxOCwiZGVwYXJ0bWVudF9uYW1lIjoiRGVzZW52b2x2aW1lbnRvIiwiZGVwYXJ0bWVudF9tYW5hZ2VyIjpmYWxzZSwiZW1haWwiOiJsYXphcm9AZW1haWwuY29tIiwiZW1wbG95ZWVfaWQiOjkzNjUsImlkIjo4ODIzLCJleHRlcm5hbF9jb2RlIjoiNDc5ZTAyMjItMGU4YS00MzEwLTkwY2MtYjZiNjVkZGIwYjJkIiwidXNlcm5hbWUiOiIwNzAuNjM4LjIzMy0xMCIsIm5hbWUiOiJKb2FvIExhemFybyIsIm90cF9lbmFibGVkIjp0cnVlLCJvdHBfc2V0X3VwIjp0cnVlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JzIjpbeyJpZCI6OTgsIm5hbWUiOiJFc2NyaXTDs3JpbyBCYXJiYWxoYS9DRSIsInN1cGVydmlzb3IiOmZhbHNlfSx7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls5OCw4XSwicGhvbmUiOjg4OTk5NjY2NTU1LCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjozMzk5NTMsInN0b3JhZ2UiOiI0YTRjNWRlNS1hOGZiLTRhZTQtOTBkOS1jYjUzMTc5M2ZjZDkiLCJleHAiOjE2NzYyMjQ5MzgsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjczNjMyOTM4fQ.-BTXpal-ZplW8RkhQaJalzfYjEe2BLpFlnAaLGkgrIw"
     },
     "tests": []
   },
@@ -540,13 +560,24 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
     "name": "teams_totals_per_day",
-    "url": "report/dashboard/cabling/1611/teams_totals_per_day",
+    "url": "report/dashboard/cabling/1611/teams_totals_per_day?cabo=true&data=25-11-2022",
     "method": "GET",
     "sortNum": 240000,
     "created": "2023-01-03T16:25:45.067Z",
-    "modified": "2023-01-04T13:39:45.505Z",
+    "modified": "2023-01-06T13:18:57.243Z",
     "headers": [],
-    "params": [],
+    "params": [
+      {
+        "name": "cabo",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "data",
+        "value": "25-11-2022",
+        "isPath": false
+      }
+    ],
     "auth": {
       "type": "bearer",
       "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMDEsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Im9hbWFkb2RlZGV1c0BnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6MTYzMywiaWQiOjE1NzAsImV4dGVybmFsX2NvZGUiOiJhZmNkY2I3NC03MDZkLTRkN2MtODk0YS1mMzlkMTIxYzExYjciLCJ1c2VybmFtZSI6IjA3MC42MzguMjMzLTEwIiwibmFtZSI6Ikx1Y2FzIFJhbmllbCIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JfaWQiOjE3Miwic2VjdG9yX25hbWUiOiJEZXNlbnZvbHZlZG9yZXMgQ2VudHJhbCIsInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg0OTk4NDEzNTMwLCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoxOTk4OTgsInN0b3JhZ2UiOiIwNWMzZjRkMi0wNzJhLTRmYTgtYjFmMy1hMWE2NTM5NGNmYTMiLCJleHAiOjE2NzUzNTUyNjAsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjcyNzYzMjYwfQ.YUMb6t6mYfXdAG5ID4xm0fSDfPXK9txuHCiWvems0oI"
@@ -575,6 +606,66 @@
       "type": "bearer",
       "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMDEsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Im9hbWFkb2RlZGV1c0BnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6MTYzMywiaWQiOjE1NzAsImV4dGVybmFsX2NvZGUiOiJhZmNkY2I3NC03MDZkLTRkN2MtODk0YS1mMzlkMTIxYzExYjciLCJ1c2VybmFtZSI6IjA3MC42MzguMjMzLTEwIiwibmFtZSI6Ikx1Y2FzIFJhbmllbCIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JfaWQiOjE3Miwic2VjdG9yX25hbWUiOiJEZXNlbnZvbHZlZG9yZXMgQ2VudHJhbCIsInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg0OTk4NDEzNTMwLCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoxOTk4OTgsInN0b3JhZ2UiOiIwNWMzZjRkMi0wNzJhLTRmYTgtYjFmMy1hMWE2NTM5NGNmYTMiLCJleHAiOjE2NzUzNTUyNjAsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjcyNzYzMjYwfQ.YUMb6t6mYfXdAG5ID4xm0fSDfPXK9txuHCiWvems0oI"
     },
+    "tests": []
+  },
+  {
+    "_id": "771748ab-157f-4ad2-bc06-1246be1f504a",
+    "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
+    "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
+    "name": "materials_totals_per_day",
+    "url": "report/dashboard/cabling/1611/materials_totals_by_day?cabo=true&data=25-11-2022",
+    "method": "GET",
+    "sortNum": 185000,
+    "created": "2023-01-05T17:55:45.938Z",
+    "modified": "2023-01-06T14:13:37.480Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "cabo",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "data",
+        "value": "25-11-2022",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "769657ce-72b1-4b1c-8052-a26408f5688a",
+    "colId": "220c9c60-caf0-4a18-954c-ca1b1378f4e4",
+    "containerId": "",
+    "name": "integration/attendance/address_change_requests",
+    "url": "report/ticket/customer_service/stratification/recurrence?data_inicial=2022-12-01T03%3A00%3A00.000Z&data_final=2022-12-31T02%3A59%3A59.059Z&setor_relatorio=atendimento&notify=true",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2023-01-16T13:12:44.091Z",
+    "modified": "2023-01-16T13:15:58.730Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "data_inicial",
+        "value": "2022-12-01T03%3A00%3A00.000Z",
+        "isPath": false
+      },
+      {
+        "name": "data_final",
+        "value": "2022-12-31T02%3A59%3A59.059Z",
+        "isPath": false
+      },
+      {
+        "name": "setor_relatorio",
+        "value": "atendimento",
+        "isPath": false
+      },
+      {
+        "name": "notify",
+        "value": "true",
+        "isPath": false
+      }
+    ],
     "tests": []
   }
 ]

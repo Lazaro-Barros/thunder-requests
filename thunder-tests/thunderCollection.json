@@ -87,5 +87,23 @@
         "baseUrl": "{{linkFttx}}"
       }
     }
+  },
+  {
+    "_id": "220c9c60-caf0-4a18-954c-ca1b1378f4e4",
+    "colName": "atendimento",
+    "created": "2023-01-16T13:12:44.067Z",
+    "sortNum": 20000,
+    "folders": [],
+    "settings": {
+      "headers": [],
+      "auth": {
+        "type": "bearer",
+        "bearer": "{{tokenDev}}"
+      },
+      "tests": [],
+      "options": {
+        "baseUrl": "{{linkChamados}}"
+      }
+    }
   }
 ]
