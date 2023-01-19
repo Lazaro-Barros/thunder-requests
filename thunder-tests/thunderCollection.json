@@ -80,7 +80,7 @@
       "headers": [],
       "auth": {
         "type": "bearer",
-        "bearer": "{{tokenDev}}"
+        "bearer": "{{tokenHomo}}"
       },
       "tests": [],
       "options": {
@@ -98,7 +98,7 @@
       "headers": [],
       "auth": {
         "type": "bearer",
-        "bearer": "{{tokenDev}}"
+        "bearer": "{{tokenHomo}}"
       },
       "tests": [],
       "options": {

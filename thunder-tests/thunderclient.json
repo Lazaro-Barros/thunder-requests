@@ -401,26 +401,41 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
     "name": "materials_totals",
-    "url": "report/dashboard/cabling/1572/materials_totals?projeto_id=1572&equipe_id=430&cabo=true&notify=true",
+    "url": "report/dashboard/cabling/1572/materials_totals?cabo=true&projeto_id=1572&trecho_id=19745&desc=false&order=material_nome&offset=0&notify=true",
     "method": "GET",
     "sortNum": 180000,
     "created": "2022-11-23T13:07:56.273Z",
-    "modified": "2023-01-16T12:33:21.322Z",
+    "modified": "2023-01-19T19:35:01.004Z",
     "headers": [],
     "params": [
+      {
+        "name": "cabo",
+        "value": "true",
+        "isPath": false
+      },
       {
         "name": "projeto_id",
         "value": "1572",
         "isPath": false
       },
       {
-        "name": "equipe_id",
-        "value": "430",
+        "name": "trecho_id",
+        "value": "19745",
         "isPath": false
       },
       {
-        "name": "cabo",
-        "value": "true",
+        "name": "desc",
+        "value": "false",
+        "isPath": false
+      },
+      {
+        "name": "order",
+        "value": "material_nome",
+        "isPath": false
+      },
+      {
+        "name": "offset",
+        "value": "0",
         "isPath": false
       },
       {
@@ -503,17 +518,44 @@
     "colId": "a4d07534-6b0e-4bb7-b3b3-77dee68e41ed",
     "containerId": "5172a652-d838-41ab-b951-9bc97ae01c3f",
     "name": "cantles_totals",
-    "url": "report/dashboard/cabling/489/cantles_totals",
+    "url": "report/dashboard/cabling/1572/cantles_totals?projeto_id=1572&cabo=true&desc=true&order=total_consumido&offset=0&notify=true ",
     "method": "GET",
     "sortNum": 220000,
     "created": "2022-12-01T19:05:23.109Z",
-    "modified": "2022-12-01T19:06:07.729Z",
+    "modified": "2023-01-19T19:36:06.582Z",
     "headers": [],
-    "params": [],
-    "auth": {
-      "type": "bearer",
-      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMDEsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Im9hbWFkb2RlZGV1c0BnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6MTYzMywiaWQiOjE1NzAsImV4dGVybmFsX2NvZGUiOiJhZmNkY2I3NC03MDZkLTRkN2MtODk0YS1mMzlkMTIxYzExYjciLCJ1c2VybmFtZSI6IjA3MC42MzguMjMzLTEwIiwibmFtZSI6Ikx1Y2FzIFJhbmllbCIsIm90cF9zZXRfdXAiOmZhbHNlLCJwYWd1ZWJyaXNhIjp7ImRvbWFpbl9pZCI6MX0sInByZWZlcmVuY2VzIjp7ImZpcnN0X2xvZ2luX3JhdW1pbCI6MCwidGlwb19tYXBhIjoiaHlicmlkIn0sInJldmFuIjp7ImJ5cGFzcyI6ZmFsc2V9LCJzZWN0b3JfaWQiOjE3Miwic2VjdG9yX25hbWUiOiJEZXNlbnZvbHZlZG9yZXMgQ2VudHJhbCIsInNlY3RvcnMiOlt7ImlkIjo4LCJuYW1lIjoiU2lzdGVtYSIsInN1cGVydmlzb3IiOmZhbHNlfV0sInNlY3RvcnNfaWQiOls4XSwicGhvbmUiOjg0OTk4NDEzNTMwLCJzYWxlX2NoYW5uZWxfaWQiOjEwLCJqd3RfdG9rZW4iOiIiLCJzZXNzaW9uX2lkIjoxOTkzMDEsInN0b3JhZ2UiOiI4YjIyMDNmZi1iYTdkLTQ2Y2MtOWJkMi1lY2U4MDFhNjUxYjAiLCJleHAiOjE2NzI0MjkyODYsImlzcyI6IkJyaXNhbmV0IiwibmJmIjoxNjY5ODM3Mjg2fQ.bFGe9WMACgQvtSCjDjjUUwTwEjr1PgS5cTSk9QQl0x4"
-    },
+    "params": [
+      {
+        "name": "projeto_id",
+        "value": "1572",
+        "isPath": false
+      },
+      {
+        "name": "cabo",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "desc",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "order",
+        "value": "total_consumido",
+        "isPath": false
+      },
+      {
+        "name": "offset",
+        "value": "0",
+        "isPath": false
+      },
+      {
+        "name": "notify",
+        "value": "true ",
+        "isPath": false
+      }
+    ],
     "tests": []
   },
   {
@@ -658,6 +700,285 @@
       {
         "name": "setor_relatorio",
         "value": "atendimento",
+        "isPath": false
+      },
+      {
+        "name": "notify",
+        "value": "true",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "8f3b1070-c964-403a-b96d-d90e5a760f8f",
+    "colId": "220c9c60-caf0-4a18-954c-ca1b1378f4e4",
+    "containerId": "",
+    "name": "teste",
+    "url": "crm/ticket/925714/customers/address/availability?has_house_number=true&zip_code=63107-010&street=Rua Monsenhor Pedro Rocha&neighborhood=Sossego&number=480&complement&reference_1=dasdsdasd&reference_2=dsadsad&observation=dsadsadasad&city_id=127&ticket_id=925714&city_name=Crato&state=CE&id_cliente=56878&id_endereco=95873&notify=true",
+    "method": "GET",
+    "sortNum": 90000,
+    "created": "2023-01-17T17:03:23.868Z",
+    "modified": "2023-01-17T17:54:04.178Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "has_house_number",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "zip_code",
+        "value": "63107-010",
+        "isPath": false
+      },
+      {
+        "name": "street",
+        "value": "Rua Monsenhor Pedro Rocha",
+        "isPath": false
+      },
+      {
+        "name": "neighborhood",
+        "value": "Sossego",
+        "isPath": false
+      },
+      {
+        "name": "number",
+        "value": "480",
+        "isPath": false
+      },
+      {
+        "name": "complement",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "reference_1",
+        "value": "dasdsdasd",
+        "isPath": false
+      },
+      {
+        "name": "reference_2",
+        "value": "dsadsad",
+        "isPath": false
+      },
+      {
+        "name": "observation",
+        "value": "dsadsadasad",
+        "isPath": false
+      },
+      {
+        "name": "city_id",
+        "value": "127",
+        "isPath": false
+      },
+      {
+        "name": "ticket_id",
+        "value": "925714",
+        "isPath": false
+      },
+      {
+        "name": "city_name",
+        "value": "Crato",
+        "isPath": false
+      },
+      {
+        "name": "state",
+        "value": "CE",
+        "isPath": false
+      },
+      {
+        "name": "id_cliente",
+        "value": "56878",
+        "isPath": false
+      },
+      {
+        "name": "id_endereco",
+        "value": "95873",
+        "isPath": false
+      },
+      {
+        "name": "notify",
+        "value": "true",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "50d8a0be-133f-4ea0-8264-0430d4f0da4b",
+    "colId": "220c9c60-caf0-4a18-954c-ca1b1378f4e4",
+    "containerId": "",
+    "name": "teste Copy",
+    "url": "crm/ticket/925759/customers/address/create_update?captured_coordinate=true&ticket_id=925759&observation=dsadsadsadsad&ftth_condominium_id=15792&condominium=CondoTesteFinally&status=Finalizado&agreed_with_fee=true&installments=1&discount=undefined&equipment_at_new_address=true&new_address_as_billing=true&address=[object Object]&changed_address=false&notify=true",
+    "method": "POST",
+    "sortNum": 100000,
+    "created": "2023-01-17T18:30:53.979Z",
+    "modified": "2023-01-18T14:22:39.526Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "captured_coordinate",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "ticket_id",
+        "value": "925759",
+        "isPath": false
+      },
+      {
+        "name": "observation",
+        "value": "dsadsadsadsad",
+        "isPath": false
+      },
+      {
+        "name": "ftth_condominium_id",
+        "value": "15792",
+        "isPath": false
+      },
+      {
+        "name": "condominium",
+        "value": "CondoTesteFinally",
+        "isPath": false
+      },
+      {
+        "name": "status",
+        "value": "Finalizado",
+        "isPath": false
+      },
+      {
+        "name": "agreed_with_fee",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "installments",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "discount",
+        "value": "undefined",
+        "isPath": false
+      },
+      {
+        "name": "equipment_at_new_address",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "new_address_as_billing",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "address",
+        "value": "[object Object]",
+        "isPath": false
+      },
+      {
+        "name": "changed_address",
+        "value": "false",
+        "isPath": false
+      },
+      {
+        "name": "notify",
+        "value": "true",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"captured_coordinate\": true,\n  \"ticket_id\": 925759,\n  \"observation\": \"dsadsadsadsad\",\n  \"ftth_condominium_id\": 15792,\n  \"condominium\": \"CondoTesteFinally\",\n  \"status\": \"Finalizado\",\n  \"agreed_with_fee\": true,\n  \"installments\": 1,\n  \"equipment_at_new_address\": true,\n  \"new_address_as_billing\": true,\n  \"address\": {\n    \"has_house_number\": true,\n    \"street\": \"Moacir Gondim Lossio\",\n    \"city_id\": 127,\n    \"city_name\": \"Crato\",\n    \"number\": \"23\",\n    \"neighborhood\": \"Riacho Fundo\",\n    \"zip_code\": \"63100-000\",\n    \"state\": \"CE\",\n    \"latitude\": -7.228060041787879,\n    \"longitude\": -39.41633659866221,\n    \"complement\": \"AP. dsadsa, Andar dsadsad, Bloco sdasd, horizontal\",\n    \"reference_1\": \"adsadsa\",\n    \"reference_2\": \"dsaadsadsadsa\"\n  },\n  \"changed_address\": false\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbmlzdHJhdG9yIjp0cnVlLCJjaXR5X2lkIjoxMjAsImRlcGFydG1lbnRfaWQiOjE4LCJkZXBhcnRtZW50X25hbWUiOiJEZXNlbnZvbHZpbWVudG8iLCJkZXBhcnRtZW50X21hbmFnZXIiOmZhbHNlLCJlbWFpbCI6Imx1Y2NzbmVyZEBnbWFpbC5jb20iLCJlbXBsb3llZV9pZCI6OTQzNiwiaWQiOjg4ODYsImV4dGVybmFsX2NvZGUiOiI3OTVmNzQwNS02ZGEwLTRkM2YtYWNhOC00ZDY2NzE4OTA2NjQiLCJ1c2VybmFtZSI6IjA1Ny40MzQuNzEzLTU1IiwibmFtZSI6Ikx1Y2FzIEVtbWFudWVsIEFsdmVzIFBlcmVpcmEiLCJvdHBfZW5hYmxlZCI6dHJ1ZSwib3RwX3NldF91cCI6dHJ1ZSwicGFndWVicmlzYSI6eyJkb21haW5faWQiOjF9LCJwcmVmZXJlbmNlcyI6eyJmaXJzdF9sb2dpbl9yYXVtaWwiOjAsInRpcG9fbWFwYSI6Imh5YnJpZCJ9LCJyZXZhbiI6eyJieXBhc3MiOmZhbHNlfSwic2VjdG9ycyI6W3siaWQiOjYzLCJuYW1lIjoiRnJvbnRlbmQiLCJzdXBlcnZpc29yIjpmYWxzZX0seyJpZCI6OCwibmFtZSI6IlNpc3RlbWEiLCJzdXBlcnZpc29yIjpmYWxzZX1dLCJzZWN0b3JzX2lkIjpbNjMsOF0sInBob25lIjo4ODk5NzEwOTE5NSwic2FsZV9jaGFubmVsX2lkIjoxMCwiand0X3Rva2VuIjoiIiwic2Vzc2lvbl9pZCI6MzQwNDYwLCJzdG9yYWdlIjoiOTAxMzExMTctODk1Yi00ZmMyLTg1NWItOGY1NWRmNzczNjI0IiwiZXhwIjoxNjc2NDYzOTMwLCJpc3MiOiJCcmlzYW5ldCIsIm5iZiI6MTY3Mzg3MTkzMH0.fJ8_0eQJsxgkxfItBXqviWJXOv5E2cb_KWqj2K-RcxQ"
+    },
+    "tests": []
+  },
+  {
+    "_id": "fc7c5373-370e-474a-b19f-9f903ccbf544",
+    "colId": "220c9c60-caf0-4a18-954c-ca1b1378f4e4",
+    "containerId": "",
+    "name": "teste Copy Copy",
+    "url": "crm/ticket/926872/customers/address/create_update?captured_coordinate=true&ticket_id=926872&observation=21321&ftth_condominium_id=15792&condominium=CondoTesteFinally&status=Finalizado&agreed_with_fee=true&installments=1&discount=undefined&equipment_at_new_address=true&new_address_as_billing=true&address=%5Bobject%20Object%5D&changed_address=false&notify=true",
+    "method": "POST",
+    "sortNum": 110000,
+    "created": "2023-01-18T14:03:47.085Z",
+    "modified": "2023-01-18T14:07:47.725Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [
+      {
+        "name": "captured_coordinate",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "ticket_id",
+        "value": "926872",
+        "isPath": false
+      },
+      {
+        "name": "observation",
+        "value": "21321",
+        "isPath": false
+      },
+      {
+        "name": "ftth_condominium_id",
+        "value": "15792",
+        "isPath": false
+      },
+      {
+        "name": "condominium",
+        "value": "CondoTesteFinally",
+        "isPath": false
+      },
+      {
+        "name": "status",
+        "value": "Finalizado",
+        "isPath": false
+      },
+      {
+        "name": "agreed_with_fee",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "installments",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "discount",
+        "value": "undefined",
+        "isPath": false
+      },
+      {
+        "name": "equipment_at_new_address",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "new_address_as_billing",
+        "value": "true",
+        "isPath": false
+      },
+      {
+        "name": "address",
+        "value": "%5Bobject%20Object%5D",
+        "isPath": false
+      },
+      {
+        "name": "changed_address",
+        "value": "false",
         "isPath": false
       },
       {
